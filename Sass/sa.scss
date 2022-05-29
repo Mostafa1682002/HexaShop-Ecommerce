@@ -1,0 +1,186 @@
+$size:10px;
+$transution:.5s;
+html {
+    scroll-behavior: smooth;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #EEE;
+    font-size: 18px;
+    & a:hover,
+    a.active {
+        color: blue !important;
+    }
+}
+
+
+/*Main Header*/
+
+.inner {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    transform: scaleY(0);
+    transition: $transution;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover {
+    cursor: pointer;
+    &:hover .inner {
+        transform: scaleY(1);
+    }
+}
+
+
+/* Start Men's */
+
+
+/* Start Women's */
+
+
+/* Start Kid's */
+
+.head p {
+    color: #777;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+$size-inner-icons:45px;
+.inner-icons {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -$size-inner-icons;
+    transition: $transution;
+}
+
+.card-hover {
+    overflow: hidden;
+    cursor: pointer;
+    &:hover .inner-icons {
+        bottom: 5%;
+    }
+}
+
+.inner-icons span {
+    width: $size-inner-icons;
+    height: $size-inner-icons;
+    line-height: $size-inner-icons;
+    padding: 2px 13px;
+    display: inline-block;
+    margin-left: 5px;
+    &:hover {
+        background-color: #000 !important;
+    }
+    &:hover>svg {
+        color: #fff !important;
+    }
+}
+
+.r-l-icon span {
+    width: $size-inner-icons;
+    height: $size-inner-icons;
+    line-height: $size-inner-icons;
+    cursor: pointer;
+    &:hover {
+        color: white !important;
+        background-color: #000 !important;
+    }
+}
+
+
+/*Start Explor*/
+
+.explor p {
+    color: #aaa;
+}
+
+.empty {
+    background-color: #f8f8f8;
+}
+
+// Start Social
+.social-hover {
+    transition: $transution;
+    &:hover .inner-social {
+        display: block !important;
+        background-color: black;
+        opacity: .9;
+        cursor: pointer;
+    }
+    &:hover .text-social {
+        display: block !important;
+    }
+}
+
+.sub-main p {
+    color: #777;
+}
+
+
+/*Footer*/
+
+footer .row p {
+    cursor: pointer;
+    &:hover {
+        color: #aaa !important;
+    }
+}
+
+footer a {
+    &:hover {
+        opacity: .7;
+    }
+}
+
+.facebook {
+    cursor: pointer;
+    &:hover {
+        color: #1877f2 !important;
+    }
+}
+
+.twitter {
+    cursor: pointer;
+    &:hover {
+        color: #1da1f2 !important;
+    }
+}
+
+.instagram {
+    cursor: pointer;
+    &:hover {
+        color: #e1306c!important;
+    }
+}
+
+.youtube {
+    cursor: pointer;
+    &:hover {
+        color: #ff0000!important;
+    }
+}
+
+.btnup {
+    color: #fff;
+    background-color: red;
+    border-color: transparent;
+    border-radius: $size;
+    position: fixed;
+    right: -$size - $size - $size - $size;
+    bottom: $size;
+    padding: 3px 7px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .3s;
+    & svg {
+        font-size: $size +$size !important;
+    }
+}

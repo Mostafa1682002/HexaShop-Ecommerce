@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- all main file -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- css bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Sass/sa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Hexashop Ecommerce</title>
+</head>
+
+<body>
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" alt="alternate">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 active text-dark" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 text-dark" href="#men">Men's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 text-dark" href="#women">Women's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 text-dark" href="#kid">Kid's</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link p-lg-3 dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item " href="#">Products</a></li>
+                            <li><a class="dropdown-item " href="#">Single Product</a></li>
+                            <li><a class="dropdown-item " href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link p-lg-3 dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Features</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Features Page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Features Page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Features Page 3</a></li>
+                            <li><a class="dropdown-item" href="#">Template Page 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 text-dark" href="#explor">Explore</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Start main Header -->
+    <div class="main-header py-5 px-3 border border-1 border-secondary">
+        <div class="row">
+            <div class="col-12 col-lg-6 position-relative d-flex justify-content-center align-items-center">
+                <img src="imgs/left-banner-image.jpg" alt="alternate...." class="img-fluid">
+                <div class="text-white position-absolute w-75 text-center">
+                    <h1 class="fw-bold">We Are Hexashop </h1>
+                    <p class="fs-5 my-4"> Awesome, clean & creative HTML5 Template</p>
+                    <div class="btn btn-outline-light">Purchase Now!</div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="row">
+                    <div class=" hover col-md-6 col-12 gy-md-0 g-4 position-relative d-flex justify-content-center align-items-center">
+                        <img src="imgs/baner-right-image-01.jpg" alt="" class="w-100">
+                        <div class=" text-white text-center position-absolute">
+                            <h3 class="fw-bold mt-4">Women</h3>
+                            <p>Best Clothes For Women</p>
+                        </div>
+                        <div class="inner text-center  bg-dark text-light text-center">
+                            <h4 class="">Women</h4>
+                            <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                            <div class="main-border-button">
+                                <a class="btn btn-outline-light" href="#">Discover More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hover col-md-6 col-12 gy-md-0 g-4 position-relative d-flex justify-content-center align-items-center">
+                        <img src="imgs/baner-right-image-02.jpg" alt="" class="w-100">
+                        <div class="text-white text-center position-absolute">
+                            <h3 class="fw-bold mt-4">Men</h3>
+                            <p>Best Clothes For Men</p>
+                        </div>
+                        <div class="inner text-center  bg-dark text-light text-center">
+                            <h4 class="">Men</h4>
+                            <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                            <div class="main-border-button">
+                                <a class="btn btn-outline-light" href="#">Discover More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hover col-md-6 col-12 g-md-3 g-4 position-relative d-flex justify-content-center align-items-center">
+                        <img src="imgs/baner-right-image-03.jpg" alt="" class="w-100">
+                        <div class="text-white text-center position-absolute">
+                            <h3 class="fw-bold mt-4">Kids</h3>
+                            <p>Best Clothes For Kids</p>
+                        </div>
+                        <div class="inner text-center  bg-dark text-light text-center">
+                            <h4 class="">Kids</h4>
+                            <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                            <div class="main-border-button">
+                                <a class="btn btn-outline-light" href="#">Discover More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hover col-md-6 col-12 g-md-3 g-4 position-relative d-flex justify-content-center align-items-center">
+                        <img src="imgs/baner-right-image-04.jpg" alt="" class="w-100">
+                        <div class="text-white text-center position-absolute ">
+                            <h3 class="fw-bold mt-4">Accessories</h3>
+                            <p>Best Clothes For Accessories</p>
+                        </div>
+                        <div class="inner text-center bg-dark text-light text-center">
+                            <h4 class="">Accessories</h4>
+                            <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                            <div class="main-border-button">
+                                <a class="btn btn-outline-light" href="#">Discover More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Men's -->
+    <div class="head position-relative py-3" id="men">
+        <div class="r-l-icon position-absolute w-100 h-100 d-flex justify-content-between align-items-center">
+            <span class="bg-light border border-1 border-dark px-2 py-1 ms-2"><i class="fa-solid fa-chevron-left fa-2x"></i></span>
+            <span class="bg-light border border-1 border-dark px-2 py-1 me-2"><i class="fa-solid fa-chevron-right fa-2x"></i></span>
+        </div>
+        <div class="main-mens my-5 mx-auto text-center">
+            <h1 class="fw-bold">Men's Leatest</h1>
+            <p>Details to details is what makes Hexashop different from the other themes.</p>
+        </div>
+        <div class="container my-3">
+            <div class="row g-4">
+                <div class="col-lg-6 col-xl-4 g-4  col-12 ">
+                    <div class="position-relative card-hover">
+                        <img src="imgs/men-01.jpg" alt="alternate..." class="img-fluid h-100 card-img-top">
+                        <div class="inner-icons position-absolute">
+                            <span class=" bg-light "><i class="fa-solid fa-cart-plus"></i></span>
+                            <span class=" bg-light "><i class="fa-solid fa-eye"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-star fs-6"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body m-0 bg-light">
+                        <h3 class="card-title fw-bold text-md-start text-center">Classic Spring
+                            <div class="icons">
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                            </div>
+                        </h3>
+                        <p class="card-text">$ 190</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 g-4 col-12 ">
+                    <div class="position-relative card-hover">
+                        <img src="imgs/men-02.jpg" alt="alternate..." class="img-fluid h-100 card-img-top">
+                        <div class="inner-icons position-absolute">
+                            <span class="bg-light "><i class="fa-solid fa-cart-plus"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-eye"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-star fs-6"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body m-0 bg-light text-md-start text-center">
+                        <h3 class="card-title fw-bold">Love Nana '20
+                            <div class="icons">
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                            </div>
+                        </h3>
+                        <p class="card-text">$ 150</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 g-4 col-12">
+                    <div class="position-relative card-hover">
+                        <img src="imgs/men-03.jpg" alt="alternate..." class="img-fluid h-100 card-img-top">
+                        <div class="inner-icons position-absolute">
+                            <span class=" bg-light "><i class="fa-solid fa-cart-plus"></i></span>
+                            <span class=" bg-light "><i class="fa-solid fa-eye"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-star fs-6"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body m-0 bg-light text-md-start text-center">
+                        <h3 class="card-title fw-bold">Air Force 1 X
+                            <div class="icons">
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                            </div>
+                        </h3>
+                        <p class="card-text">$ 120</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Women's -->
+    <div class="head position-relative py-3" id="women">
+        <div class="r-l-icon position-absolute w-100 h-100 d-flex justify-content-between align-items-center">
+            <span class="bg-light border border-1 border-dark px-2 py-1 ms-2"><i class="fa-solid fa-chevron-left fa-2x"></i></span>
+            <span class="bg-light border border-1 border-dark px-2 py-1 me-2"><i class="fa-solid fa-chevron-right fa-2x"></i></span>
+        </div>
+        <div class="main-mens my-5 mx-auto text-center">
+            <h1 class="fw-bold">Women's Leatest</h1>
+            <p>Details to details is what makes Hexashop different from the other themes.</p>
+        </div>
+        <div class="container my-3">
+            <div class="row g-4">
+                <div class="col-lg-6 col-xl-4 g-4  col-12 ">
+                    <div class="position-relative card-hover">
+                        <img src="imgs/women-01.jpg" alt="alternate..." class="img-fluid h-100 card-img-top">
+                        <div class="inner-icons position-absolute">
+                            <span class=" bg-light "><i class="fa-solid fa-cart-plus"></i></span>
+                            <span class=" bg-light "><i class="fa-solid fa-eye"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-star fs-6"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body m-0 bg-light">
+                        <h3 class="card-title fw-bold text-md-start text-center">New Green Jacket
+                            <div class="icons">
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                            </div>
+                        </h3>
+                        <p class="card-text">$ 120</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 g-4 col-12 ">
+                    <div class="position-relative card-hover">
+                        <img src="imgs/women-02.jpg" alt="alternate..." class="img-fluid h-100 card-img-top">
+                        <div class="inner-icons position-absolute">
+                            <span class="bg-light "><i class="fa-solid fa-cart-plus"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-eye"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-star fs-6"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body m-0 bg-light text-md-start text-center">
+                        <h3 class="card-title fw-bold">Spring Collection
+                            <div class="icons">
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                            </div>
+                        </h3>
+                        <p class="card-text">$ 120</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 g-4 col-12">
+                    <div class="position-relative card-hover">
+                        <img src="imgs/women-03.jpg" alt="alternate..." class="img-fluid h-100 card-img-top">
+                        <div class="inner-icons position-absolute">
+                            <span class=" bg-light "><i class="fa-solid fa-cart-plus"></i></span>
+                            <span class=" bg-light "><i class="fa-solid fa-eye"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-star fs-6"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body m-0 bg-light text-md-start text-center">
+                        <h3 class="card-title fw-bold">Classic Spring
+                            <div class="icons">
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                            </div>
+                        </h3>
+                        <p class="card-text">$ 120</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Kid's -->
+    <div class="head position-relative py-3" id="kid">
+        <div class="r-l-icon position-absolute w-100 h-100 d-flex justify-content-between align-items-center ">
+            <span class="bg-light border border-1 border-dark px-2 py-1 ms-2"><i class="fa-solid fa-chevron-left fa-2x"></i></span>
+            <span class="bg-light border border-1 border-dark px-2 py-1 me-2"><i class="fa-solid fa-chevron-right fa-2x"></i></span>
+        </div>
+        <div class="main-mens my-5 mx-auto text-center">
+            <h1 class="fw-bold">Kid's Leatest</h1>
+            <p>Details to details is what makes Hexashop different from the other themes.</p>
+        </div>
+        <div class="container my-3">
+            <div class="row g-4">
+                <div class="col-lg-6 col-xl-4 g-4  col-12 ">
+                    <div class="position-relative card-hover">
+                        <img src="imgs/kid-01.jpg" alt="alternate..." class="img-fluid h-100 card-img-top">
+                        <div class="inner-icons position-absolute">
+                            <span class=" bg-light "><i class="fa-solid fa-cart-plus"></i></span>
+                            <span class=" bg-light "><i class="fa-solid fa-eye"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-star fs-6"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body m-0 bg-light">
+                        <h3 class="card-title fw-bold text-md-start text-center">New Green Jacket
+                            <div class="icons">
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                            </div>
+                        </h3>
+                        <p class="card-text">$ 90</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 g-4 col-12 ">
+                    <div class="position-relative card-hover">
+                        <img src="imgs/kid-02.jpg" alt="alternate..." class="img-fluid h-100 card-img-top">
+                        <div class="inner-icons position-absolute">
+                            <span class="bg-light "><i class="fa-solid fa-cart-plus"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-eye"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-star fs-6"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body m-0 bg-light text-md-start text-center">
+                        <h3 class="card-title fw-bold">Spring Collection
+                            <div class="icons">
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                            </div>
+                        </h3>
+                        <p class="card-text">$ 70</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 g-4 col-12">
+                    <div class="position-relative card-hover">
+                        <img src="imgs/kid-03.jpg" alt="alternate..." class="img-fluid h-100 card-img-top">
+                        <div class="inner-icons position-absolute">
+                            <span class=" bg-light "><i class="fa-solid fa-cart-plus"></i></span>
+                            <span class=" bg-light "><i class="fa-solid fa-eye"></i></span>
+                            <span class="bg-light "><i class="fa-solid fa-star fs-6"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body m-0 bg-light text-md-start text-center">
+                        <h3 class="card-title fw-bold">Classic Spring
+                            <div class="icons">
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                                <i class="fa-solid fa-star fs-6 text-warning"></i>
+                            </div>
+                        </h3>
+                        <p class="card-text">$ 50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Explor -->
+    <div class="explor py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="ex-head">
+                        <h1>Explore Our Products</h1>
+                        <p class="fs-6 lh-sm">
+                            You are allowed to use this HexaShop HTML CSS template. You can feel free to modify or edit this layout. You can convert this template as any kind of ecommerce CMS theme as you wish.
+                        </p>
+                    </div>
+                    <div class="main d-flex align-items-center my-4">
+                        <i class="fa-solid fa-quote-left fa-3x"></i>
+                        <span class="ms-2 fs-5">You are not allowed to redistribute this template ZIP file on any other website.</span>
+                    </div>
+                    <div class="ex-body">
+                        <p class="my-3">There are 5 pages included in this HexaShop Template and we are providing it to you for absolutely free of charge at our TemplateMo website. There are web development costs for us.</p>
+                        <p class="my-3">If this template is beneficial for your website or business, please kindly <a class="text-decoration-none" href="#">support us</a> a little via PayPal. Please also tell your friends about our great website. Thank you.
+                        </p>
+                    </div>
+                    <span class="btn btn-outline-dark my-3">Discover More</span>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row g-2">
+                        <div class=" col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center empty p-5">
+                            <h4 class="fw-bold">Leather Bags</h4>
+                            <p>Latest Collection</p>
+                        </div>
+                        <div class="col-12 col-lg-6 p-0">
+                            <img src="imgs/explore-image-01.jpg" alt="alternate..." class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-lg-6 p-0">
+                            <img src="imgs/explore-image-02.jpg" alt="alternate..." class="img-fluid w-100">
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center empty p-5">
+                            <h4 class="fw-bold">Different Types</h4>
+                            <p>Over 304 Products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Social -->
+    <div class="head social py-4 border border-dark fa-border-style border-1" id="explor">
+        <div class="main-mens my-5 mx-auto text-center">
+            <h1 class="fw-bold">Social Media</h1>
+            <p>Details to details is what makes Hexashop different from the other themes.</p>
+        </div>
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-2 position-relative social-hover p-0">
+                    <img src="imgs/instagram-01.jpg" alt="alternate...." class="img-fluid w-100">
+                    <div class="inner-social position-absolute w-100 h-100  top-0 start-0 d-none">
+                    </div>
+                    <div class="text-social position-absolute start-0 bottom-0 text-light d-none">
+                        <p class="mb-0 px-2">Fashion</p>
+                        <i class="fa-brands fa-instagram px-3"></i>
+                    </div>
+                </div>
+                <div class="col-2 position-relative social-hover p-0">
+                    <img src="imgs/instagram-02.jpg" alt="alternate...." class="img-fluid w-100">
+                    <div class="inner-social position-absolute w-100 h-100  top-0 start-0 d-none">
+                    </div>
+                    <div class="text-social position-absolute start-0 bottom-0 text-light d-none">
+                        <p class="mb-0 px-2">New</p>
+                        <i class="fa-brands fa-instagram px-3"></i>
+                    </div>
+                </div>
+                <div class="col-2 position-relative social-hover p-0">
+                    <img src="imgs/instagram-03.jpg" alt="alternate...." class="img-fluid w-100">
+                    <div class="inner-social position-absolute w-100 h-100  top-0 start-0 d-none">
+                    </div>
+                    <div class="text-social position-absolute start-0 bottom-0 text-light d-none">
+                        <p class="mb-0 px-2">Brand</p>
+                        <i class="fa-brands fa-instagram px-3"></i>
+                    </div>
+                </div>
+                <div class="col-2 position-relative social-hover p-0">
+                    <img src="imgs/instagram-04.jpg" alt="alternate...." class="img-fluid w-100">
+                    <div class="inner-social position-absolute w-100 h-100  top-0 start-0 d-none">
+                    </div>
+                    <div class="text-social position-absolute start-0 bottom-0 text-light d-none">
+                        <p class="mb-0 px-2">Makeup</p>
+                        <i class="fa-brands fa-instagram px-3"></i>
+                    </div>
+                </div>
+                <div class="col-2 position-relative social-hover p-0">
+                    <img src="imgs/instagram-05.jpg" alt="alternate...." class="img-fluid w-100">
+                    <div class="inner-social position-absolute w-100 h-100  top-0 start-0 d-none">
+                    </div>
+                    <div class="text-social position-absolute start-0 bottom-0 text-light d-none">
+                        <p class="mb-0 px-2">Leather</p>
+                        <i class="fa-brands fa-instagram px-3"></i>
+                    </div>
+                </div>
+                <div class="col-2 position-relative social-hover p-0">
+                    <img src="imgs/instagram-06.jpg" alt="alternate...." class="img-fluid w-100">
+                    <div class="inner-social position-absolute w-100 h-100  top-0 start-0 d-none">
+                    </div>
+                    <div class="text-social position-absolute start-0 bottom-0 text-light d-none">
+                        <p class="mb-0 px-2">Bags</p>
+                        <i class="fa-brands fa-instagram px-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscrib py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 head">
+                    <h1 class="fw- bold lh-base">By Subscribing To Our Newsletter You Can Get 30% Off</h1>
+                    <p class="fs-6">Details to details is what makes Hexashop different from the other themes.</p>
+                    <form action="" class="d-flex flex-column flex-xl-row align-items-center justify-content-between w-100 py-4">
+                        <input type="text" required placeholder="Your Name" class="py-2 px-3 d-block my-3 my-xl-0 me-2 w-100" name="name" id="name">
+                        <input type="email" placeholder="Your Email Address" class="py-2 px-3  d-block mb-3 my-xl-0 me-2 w-100" required name="email" id="email">
+                        <input type="submit" name="send" value="Send" class="py-2 px-3 btn btn-outline-dark" id="">
+                    </form>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-6 sub-main">
+                            <h5 class="fw-bold">Store Location :</h5>
+                            <p>Kafr Hassan ,Samanoud El Garbia</p>
+                            <h5 class="fw-bold">Phone :</h5>
+                            <p>+20 106 456 4850</p>
+                            <h5 class="fw-bold">Office Location :</h5>
+                            <p>Mansoura</p>
+                        </div>
+                        <div class="col-6 sub-main">
+                            <h5 class="fw-bold">Work Hours :</h5>
+                            <p>07:30 AM - 9:30 PM <br> Daily</p>
+                            <h5 class="fw-bold">Email :</h5>
+                            <p>ma9856603@gmail.com</p>
+                            <h5 class="fw-bold">Social Media :</h5>
+                            <p>FaceBook , Twitter ,<br> youtube , Instegram</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Footer  -->
+    <footer class="bg-dark">
+        <div class="container pt-5 pb-2">
+            <div class="row text-md-start text-center">
+                <div class="col-lg-3 col-md-6 col-12 ">
+                    <img src="imgs/white-logo.png" alt="alternate......" class="img-fluid">
+                    <p class="text-light pt-3">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</p>
+                    <p class="text-light">ma9856603@gmail.com</p>
+                    <p class="text-light">+20 106 456 4850</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h4 class="text-light fw-bold">Shopping & Category</h4>
+                    <p class="text-light pt-3">Men's Shopping</p>
+                    <p class="text-light">women's Shopping</p>
+                    <p class="text-light">Kid's Shopping</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h4 class="text-light fw-bold">Useful links</h4>
+                    <p class="text-light pt-3">Homepage</p>
+                    <p class="text-light">About Us</p>
+                    <p class="text-light">Help</p>
+                    <p class="text-light">Contact Us</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h4 class="text-light fw-bold">Help & information</h4>
+                    <p class="text-light pt-3">Help</p>
+                    <p class="text-light">FAQ's</p>
+                    <p class="text-light">Shopping</p>
+                    <p class="text-light">Tracking ID</p>
+                </div>
+            </div>
+            <span class="d-block w-100 bg-light mt-4 mb-3" style="height: 1px;"></span>
+            <div class="w-100 text-center text-light m-auto py-3">Copyright &copy;2022 HexaShop Co., Ltd. All Rights Reserved.
+                <br>Design : <a href="" class="text-danger text-decoration-none" title="free css templates">TemplateMo</a>
+            </div>
+            <ul class="list-unstyled text-center text-light d-flex justify-content-center">
+                <li><i class="fa-brands fa-facebook facebook fa-2x pe-2"></i></li>
+                <li><i class="fa-brands fa-twitter twitter fa-2x pe-2"></i></li>
+                <li><i class="fa-brands fa-instagram instagram fa-2x pe-2"></i></li>
+                <li><i class="fa-brands fa-youtube youtube fa-2x pe-2"></i></li>
+            </ul>
+        </div>
+    </footer>
+    <button class="btnup"><i class="fa-solid fa-angle-up"></i></button>
+    <script src="JavaScript/main.js"></script>
+    <!-- bootstrap  -->
+    <script src="JavaScript/bootstrap.bundle.min.js"></script>
+    <!-- foont AweSome -->
+    <script src="JavaScript/all.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+html {
+  scroll-behavior: smooth;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background-color: #EEE;
+  font-size: 18px;
+}
+
+nav a:hover,
+nav a.active {
+  color: blue !important;
+}
+
+/*Main Header*/
+.inner {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.hover:hover .inner {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+/* Start Men's */
+/* Start Women's */
+/* Start Kid's */
+.head p {
+  color: #777;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.inner-icons {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -45px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card-hover {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-hover:hover .inner-icons {
+  bottom: 5%;
+}
+
+.inner-icons span {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  padding: 2px 13px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.inner-icons span:hover {
+  background-color: #000 !important;
+}
+
+.inner-icons span:hover > svg {
+  color: #fff !important;
+}
+
+.r-l-icon span {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.r-l-icon span:hover {
+  color: white !important;
+  background-color: #000 !important;
+}
+
+/*Start Explor*/
+.explor p {
+  color: #aaa;
+}
+
+.empty {
+  background-color: #f8f8f8;
+}
+
+.social-hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.social-hover:hover .inner-social {
+  display: block !important;
+  background-color: black;
+  opacity: .9;
+  cursor: pointer;
+}
+
+.social-hover:hover .text-social {
+  display: block !important;
+}
+
+.sub-main p {
+  color: #777;
+}
+
+/*Footer*/
+footer .row p {
+  cursor: pointer;
+}
+
+footer .row p:hover {
+  color: #aaa !important;
+}
+
+footer a:hover {
+  opacity: .7;
+}
+
+.facebook {
+  cursor: pointer;
+}
+
+.facebook:hover {
+  color: #1877f2 !important;
+}
+
+.twitter {
+  cursor: pointer;
+}
+
+.twitter:hover {
+  color: #1da1f2 !important;
+}
+
+.instagram {
+  cursor: pointer;
+}
+
+.instagram:hover {
+  color: #e1306c !important;
+}
+
+.youtube {
+  cursor: pointer;
+}
+
+.youtube:hover {
+  color: #ff0000 !important;
+}
+
+.btnup {
+  color: #fff;
+  background-color: red;
+  border-color: transparent;
+  border-radius: 10px;
+  position: fixed;
+  right: -40px;
+  bottom: 10px;
+  padding: 3px 7px;
+  text-transform: capitalize;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btnup svg {
+  font-size: 20px !important;
+}
+/*# sourceMappingURL=sa.css.map */
