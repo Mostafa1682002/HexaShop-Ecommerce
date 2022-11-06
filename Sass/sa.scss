@@ -14,6 +14,9 @@ nav {
     a.active {
         color: blue !important;
     }
+    .img-logo{
+        height: 50px;
+    }
 }
 
 
@@ -41,7 +44,9 @@ nav {
 
 /* Start Men's */
 
-
+.title-box{
+    font-size: 22px;
+}
 /* Start Women's */
 
 
@@ -49,11 +54,20 @@ nav {
 
 .head p {
     color: #777;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
+    @media (max-width:768px) {
+        &{
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    span{
+        font-size: 15px;
+    }
 }
 
-$size-inner-icons:45px;
+$size-inner-icons:40px;
 .inner-icons {
     left: 50%;
     transform: translateX(-50%);
@@ -87,8 +101,10 @@ $size-inner-icons:45px;
 .r-l-icon span {
     width: $size-inner-icons;
     height: $size-inner-icons;
-    line-height: $size-inner-icons;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     &:hover {
         color: white !important;
         background-color: #000 !important;
@@ -104,6 +120,7 @@ $size-inner-icons:45px;
 
 .empty {
     background-color: #f8f8f8;
+    min-height: 270px;
 }
 
 // Start Social
@@ -170,17 +187,20 @@ footer a {
 
 .btnup {
     color: #fff;
-    background-color: red;
+    background-color: #00000093;
     border-color: transparent;
     border-radius: $size;
     position: fixed;
     right: -$size - $size - $size - $size;
     bottom: $size;
-    padding: 3px 7px;
+    padding: 4px 6px;
     text-transform: capitalize;
     cursor: pointer;
     transition: .3s;
     & svg {
         font-size: $size +$size !important;
+    }
+    &:hover{
+        background-color: #000;
     }
 }
